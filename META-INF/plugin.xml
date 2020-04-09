@@ -1,0 +1,14 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin>
+    <name>Spell Checker Galician Dictionary</name>
+    <id>SpellChecker-Dict-Galician</id>
+    <description>Standard Galician dictionary for Spell Checker plugin</description>
+    <depends>SpellChecker</depends>
+    <version>1.0</version>
+
+    <application-components>
+        <component>
+            <implementation-class>org.intellij.spellChecker.SpellCheckerGalicianDictionary</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
